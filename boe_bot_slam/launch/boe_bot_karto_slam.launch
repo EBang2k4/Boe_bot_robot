@@ -34,7 +34,7 @@
     <param name="use_scan_matching" value="true"/>
     <param name="minimumTravelDistance" value="0.2"/>
     <param name="minimumTravelHeading" value="0.1"/>
-    <!-- <rosparam command="load" file="$(find boe_bot_slam)/config/karto_mapper_params.yaml" /> -->
+    <rosparam command="load" file="$(find boe_bot_slam)/config/karto_mapper_params.yaml" />
   </node>
 
   <!-- RViz -->
